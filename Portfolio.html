@@ -1,0 +1,164 @@
+<html>
+  <head>
+    <title>My Portfolio</title>
+    <style>
+      body {
+        background-color: #333;
+        color: #fff;
+        font-family: Arial, sans-serif;
+        margin: 0;
+      }
+
+      header {
+        background-color: #444;
+        padding: 20px;
+        text-align: center;
+        position: fixed;
+        width: 100%;
+        top: 0;
+        z-index: 1000;
+      }
+
+      nav ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+      }
+
+      nav li {
+        margin: 0 20px;
+      }
+
+      nav a {
+        color: #fff;
+        text-decoration: none;
+        font-weight: bold;
+      }
+
+      nav a:hover {
+        color: #ccc;
+      }
+
+      section {
+        padding: 40px;
+        max-width: 1000px;
+        margin: auto;
+      }
+
+      h1,
+      h2 {
+        color: #ffff;
+        text-align: center;
+        font-size: 2.5em;
+      }
+
+      #about img {
+        display: block;
+        margin: 20px auto;
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+      }
+
+      .project {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 20px;
+      }
+
+      .project li {
+        background-color: #555;
+        padding: 20px;
+        width: calc(50% - 20px);
+        box-sizing: border-box;
+        border-radius: 8px;
+      }
+
+      .project img {
+        width: 100%;
+        height: auto;
+        border-radius: 8px;
+      }
+
+      p {
+        line-height: 1.8;
+        text-align: center;
+        font-size: 1.2em;
+      }
+
+      footer {
+        background-color: #444;
+        padding: 20px;
+        text-align: center;
+        color: #fff;
+        margin-top: 40px;
+      }
+
+      a.email {
+        display: inline-block;
+        color: #1e90ff;
+        font-weight: bold;
+        text-decoration: none;
+        margin-top: 10px;
+        font-size: 1.2em;
+      }
+
+      a.email:hover {
+        text-decoration: underline;
+        color: #87cefa;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section id="about">
+      <h1>About Me</h1>
+      <img src="photo.jpg" alt="photo" />
+      <p>
+        Hello, I'm Allu Mahesh Pothan, a student with a passion for building
+        innovative solutions in technology and programming. I love to learn and
+        implement new things every day!
+      </p>
+    </section>
+
+    <section id="projects">
+      <h1>My Projects</h1>
+      <ul class="project">
+        <li>
+          <h2>University Project: Vignan University</h2>
+          <img src="vignan.png" alt="vignan" />
+          <p>Developed a system for internal management at the university.</p>
+        </li>
+        <li>
+          <h2>Blood Management System</h2>
+          <img src="blood.png" alt="blood" />
+          <p>Built a system for managing blood donations and requests.</p>
+        </li>
+      </ul>
+    </section>
+
+    <section id="contact">
+      <h1>Contact Me</h1>
+      <p>
+        If you want Contact at:
+        <a href="mailto:maheshpothanallu@gmail.com" class="email"
+          >maheshpothanallu@gmail.com</a
+        >
+      </p>
+    </section>
+    <footer>
+      <p>&copy; 2024 Allu Mahesh Pothan. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
